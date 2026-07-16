@@ -1,0 +1,17 @@
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Do NOT commit the raw Qualtrics export (contains IP/location/email columns).
+# Only the de-identified data/survey_responses.csv belongs in the repo.
+*raw*.csv
